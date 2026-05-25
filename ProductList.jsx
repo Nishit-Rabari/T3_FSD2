@@ -23,7 +23,6 @@ function ProductList(){
         <>
         <h1 > Our Product</h1>
         <ProductCard productList={product} />
-
         </>
     );
 
