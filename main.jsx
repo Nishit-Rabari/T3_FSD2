@@ -11,7 +11,8 @@ import Prop1 from './Prop1'
 import ProductList from './ProductList'
 // import App1 from './App1.jsx'
 import App3 from './App3.jsx'
-import Event4 from './Event4.jsx'
+// import Event4 from './Event4.jsx'
+import My from './Routing/My.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -21,8 +22,8 @@ createRoot(document.getElementById('root')).render(
     {/* <ProductList/> */}
     {/* <App1/> */}
     {/* <App3/> */}
-    <Event4/>
+    {/* <Event4/> */}
+    <My/>
     {/* <Prop2/> */}
   </StrictMode>,
 )
-   
