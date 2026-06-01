@@ -8,6 +8,7 @@
 //         return state-1;
 //     }
 // }
+
 // function UR(){
 //     const[state,dispatch]=useReducer(reducer,initialstate);
 //     return(
@@ -23,7 +24,7 @@ import React, { useReducer } from 'react';
 
 const initialState = 0;
 
-function reducer(state, action) {
+function reducer(state, action){
   switch (action.type) {
     case 'increment':
       return state + 1;
