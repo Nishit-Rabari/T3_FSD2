@@ -1,18 +1,17 @@
-function ProductCard(props){
-    return(
-        <>
-        {
-            props.productList.map((product,index)=>(
-                <div>
-                    <img src={product.image} alt={product.title} width='40%'/>
-                    <h2>{product.title}</h2>
-                    <p>{product.price}</p>
-                    <p>{product.rating}</p>
-
-                </div>
-            ))
-        }
-        </>
-    );
+function ProductCard(props) {
+  return (
+    <>
+      {
+        props.productList.map((product) =>(
+          <div>
+            <img src={product.image} alt={product.title} width="100%" />
+            <h2>{product.title}</h2>
+            <p>Price: {product.price}</p>
+            <p>Rating: {product.rating}</p>
+          </div>
+        ))
+      }
+    </>
+  );
 }
-export default ProductCard
+export default ProductCard;
